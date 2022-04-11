@@ -44,4 +44,9 @@ public class Varos {
     public void setLakossag(int lakossag) {
         this.lakossag = lakossag;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %d", this.nev, this.orszag, this.lakossag);
+    }
 }
